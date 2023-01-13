@@ -1,0 +1,27 @@
+<%- include("partials/header") -%>
+
+<h2>Sign Up Now</h2>
+
+<form action="/signup" method="post" class="upload-form">
+
+    <div class="form-group">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" class="form-control">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control">
+
+        <label for="password">Password </label>
+        <input type="password" name="password" id="password" class="form-control">
+
+        <label for="confirmPassword">Confirm Password </label>
+        <input type="password" id="confirmPassword" name="confirmPassword" class="form-control">
+    </div>
+    
+    <button type="submit" id="btn" class="btn btn-primary active">Sign Up</button>
+</form>
+
+<%- include("partials/footer") -%>
+    
+

@@ -1,0 +1,21 @@
+<%- include("partials/header") -%>
+
+<h2>Login Now</h2>
+
+<form action="/login" method="post" class="upload-form">
+
+    <div class="form-group">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control">
+
+        <label for="password">Password </label>
+        <input type="password" name="password" id="password" class="form-control">
+    </div>
+    
+    <button type="submit" id="btn" class="btn btn-primary active">Login</button>
+</form>
+
+<%- include("partials/footer") -%>
+    
+

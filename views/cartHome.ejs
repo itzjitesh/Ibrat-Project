@@ -1,0 +1,62 @@
+<%- include("partials/header") -%>
+
+<section>
+    
+    <div class="item">
+        <form action="/cart" method="post">
+        <img src="<%= carts[0].imageSource %>" alt="Shoe Image" >
+        <p> <%= carts[0].text %> </p>
+        <h6> <%= carts[0].price %> </h6>
+        <span></span>  
+        <button type="submit" name="anc0" value="<%= carts[0].imageSource %>">Add-Cart</button> 
+    </form>
+    </div>
+    
+
+    <div class="item">
+        <form action="/cart" method="post">
+    
+        <img src="<%= carts[1].imageSource %>" alt="Shoe Image" >
+        <p> <%= carts[1].text %> </p>
+        <h6> <%= carts[1].price %> </h6>
+        <span></span>
+        <button type="submit" name="anc1" value="<%= carts[1].imageSource %>">Add-Cart</button> 
+    </form>
+    </div>
+
+
+    <div class="item">
+        <form action="/cart" method="post">
+        <img src="<%= carts[2].imageSource %>" alt="Shoe Image" >
+        <p> <%= carts[2].text %> </p>
+        <h6> <%= carts[2].price %> </h6>
+        <span></span>
+        <button type="submit" name="anc2" value="<%= carts[2].imageSource %>">Add-Cart</button> 
+    </form>
+    </div>
+
+    <div class="item">
+        <form action="/cart" method="post">
+        <img src="<%= carts[3].imageSource %>" alt="Shoe Image" >
+        <p> <%= carts[3].text %> </p>
+        <h6> <%= carts[3].price %> </h6>
+        <span></span>
+        <button type="submit" name="anc3" value="<%= carts[3].imageSource %>">Add-Cart</button> 
+    </form>
+    </div>
+
+    <div class="item">
+        <form action="/cart" method="post">
+        <img src="<%= carts[4].imageSource %>" alt="Shoe Image" >
+        <p> <%= carts[4].text %> </p>
+        <h6> <%= carts[4].price %> </h6>
+        <span></span>
+        <button type="submit" name="anc4" value="<%= carts[4].imageSource %>">Add-Cart</button> 
+    </form>
+    </div>
+
+</section>
+
+<%- include("partials/footer") -%>
+    
+

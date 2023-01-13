@@ -1,0 +1,16 @@
+<%- include("partials/header") -%>
+
+<div class="item-cart">
+    
+    <% for (let i =0; i<carts.length; i++){ %>
+        <img src="<%= carts[i].imageSource %>" alt="Shoe Image" >
+        <p> <%= carts[i].text %> </p>
+        <h6> <%= carts[i].price %> </h6>
+        <span></span>
+        <button class="cart-button">Buy Now</button>   
+    <% }; %>
+</div>
+
+<%- include("partials/footer") -%>
+    
+
